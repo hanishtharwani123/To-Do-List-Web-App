@@ -14,6 +14,7 @@ Welcome to the To-Do List Web App! This web application is designed to provide a
 
 - **Technologies Used**: This project is built using HTML, CSS, JavaScript, and PHP, ensuring a smooth user experience.
 
+
 ## Usage
 
 1. Visit the website at [http://todolistphp.infinityfreeapp.com/](http://todolistphp.infinityfreeapp.com/).
@@ -24,17 +25,23 @@ Welcome to the To-Do List Web App! This web application is designed to provide a
 
 4. After successful signup, you will be redirected to the To-Do List page, where you can add, manage, and complete tasks.
 
-## Project Structure
+## Project Files
 
-- `index.html`: The main entry point for the website, displaying the animation page.
+- `connect.php`: PHP script for connecting to the database.
 
-- `signup.php`: Handles user registration and data storage in the PHP admin.
+- `index.php`: The main entry point for the website, displaying the animation page.
 
-- `todolist.html`: The To-Do List page where users can manage their tasks.
+- `main.css`: Contains the website's CSS styles for layout and design.
 
-- `style.css`: Contains the website's CSS styles for layout and design.
+- `signup.css`: CSS styles for the signup page.
 
-- `script.js`: Implements the website's JavaScript functionality for interactivity.
+- `signup.php`: Handles user registration and data storage in the PHP admin panel.
+
+- `todoList.css`: CSS styles for the To-Do List page.
+
+- `todoList.js`: Implements the website's JavaScript functionality for interactivity on the To-Do List page.
+
+- `todoList.php`: The To-Do List page where users can manage their tasks.
 
 ## Hosting
 
@@ -49,3 +56,15 @@ This project is open source and available under the [MIT License](LICENSE).
 - Hanish Tharwani - Developer
 
 Feel free to contribute to this project or report any issues. We welcome your feedback and suggestions.
+
+## Images
+![Screenshot (1023)](https://github.com/hanishtharwani123/To-Do-List-Web-App/assets/104623869/d1edde49-dfaa-4285-9315-12c197f88774)
+- The captivating animation that welcomes users to the site.
+
+![Screenshot (1024)](https://github.com/hanishtharwani123/To-Do-List-Web-App/assets/104623869/a8735b16-0b94-456c-bc5a-d7c17e78b259)
+- The sign-up page where users can create accounts.
+
+![Screenshot (1025)](https://github.com/hanishtharwani123/To-Do-List-Web-App/assets/104623869/fc7880b2-e3a2-4b18-8a34-1f6c56c51a64)
+- The To-Do List page where users can manage their tasks.
+
+
