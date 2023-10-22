@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(circle at 10% 20%, rgb(3, 235, 255) 0%, rgb(152, 70, 242) 100.2%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+form {
+    width: 440px;
+    height: 560px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 6px #fff;
+}
+
+.signUp {
+    text-align: center;
+    padding: 20px 0px;
+    color: #000;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.container {
+    display: grid;
+    grid-gap: 35px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+}
+
+.label_edit {
+    display: inline-block;
+    width: 160px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+
+}
+
+.input {
+    width: 230px;
+    background: radial-gradient(circle at 10% 20%, rgb(3, 235, 255) 0%, rgb(152, 70, 242) 100.2%);
+    border: 0;
+    border-radius: 22px;
+    display: inline-block;
+    padding: 13px 12px;
+    outline: none;
+    font-size: 14px;
+    color: #000000;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    font-weight: 500;
+}
+
+.check {
+    display: flex;
+}
+
+.checking {
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.check_input {
+    cursor: pointer;
+}
+
+.signUpBtn {
+    width: 230px;
+    background: radial-gradient(circle at 10% 20%, rgb(3, 235, 255) 0%, rgb(152, 70, 242) 100.2%);
+    border: 0;
+    border-radius: 22px;
+    display: inline-block;
+    padding: 13px 12px;
+    outline: none;
+    font-size: 15px;
+    color: #000000;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: 0 0 4px rgb(0, 195, 255);
+    margin-top: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:481px) {
+    form {
+        width: 294px;
+        height: 560px;
+        background: #fff;
+        border-radius: 6px;
+        box-shadow: 0 0 6px #fff;
+    }
+
+    .label_edit {
+        display: inline-block;
+        width: 93px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #000;
+    }
+
+    .input {
+        width: 150px;
+    }
+
+    .signUpBtn {
+        width: 129px;
+    }
+
+    .checking {
+        margin-left: 10px;
+        font-weight: 500;
+        font-size: 11px;
+    }
+}
